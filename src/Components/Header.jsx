@@ -47,7 +47,7 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl lg:text-4xl font-bold bg-gradient-to-r from-purple-500 to-purple-700 border-none text-transparent bg-clip-text">Carrer Hub</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -55,7 +55,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn btn-primary bg-gradient-to-r from-purple-500 to-purple-700 border-none">Apply Now</a>
       </div>
     </div>
   );
